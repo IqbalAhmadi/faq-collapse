@@ -37,13 +37,21 @@ h1 {
 
 .faq.active::before,
 .faq.active::after {
-  content: '\e14e';
+  content: '\f086';
   font-family: 'Font Awesome 5 Free';
   color: #2ecc71;
   font-size: 7rem;
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.1;
   top: 20px;
   left: 20px;
   z-index: 0;
+}
+
+.faq-title {
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
 }
